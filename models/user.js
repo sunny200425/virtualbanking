@@ -67,4 +67,11 @@ const usertemp7 = new User({
 });
 //usertemp7.save();
 
+const usertemp8 = new User({
+  name: 'Paul',
+  email: 'Paul09@gmail.com',
+  credits: 7000,
+});
+//usertemp8.save();
+
 module.exports = User;
