@@ -11,9 +11,11 @@
 
 body {
   background-image: url("/images/background.jpg ");
+  height: 100%;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
-/* Navbar Styling */
 nav {
   height: 4rem;
   background-color: #02040f;
@@ -56,6 +58,12 @@ li {
   background: #fff;
   transform: skew(-20deg);
 }
+.bio {
+  text-align: center;
+  position: relative;
+  margin-left: 150px;
+  margin-top: 20px;
+}
 
 .link2:hover {
   color: black;
@@ -65,8 +73,13 @@ li {
 
 .link3:hover {
   color: black;
-  background-color: #202ffc;
+  background-color: #e6fc20;
   transform: skew(-20deg);
+}
+
+.fromto {
+  text-align: center;
+  margin-top: 230px;
 }
 
 li:hover a {
@@ -78,9 +91,6 @@ li:hover a {
   color: blanchedalmond;
   padding-top: 1rem;
 }
-
-/* index.ejs Styling */
-
 .container {
   margin-top: 3rem;
   display: flex;
@@ -136,7 +146,6 @@ li:hover a {
   padding: 0 38%;
 }
 
-/* Table Styling */
 .table {
   margin-top: 1rem;
   display: flex;
@@ -157,15 +166,13 @@ th {
   padding: 8px;
 }
 
-/* error.ejs styling */
 .error {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 2rem 0 2rem 0;
+  position: relative;
+  text-align: center;
+  margin-top: 350px;
+  margin-bottom: 230px;
 }
 
-/* view.ejs styling */
 .view-header {
   margin-top: 1rem;
   font-family: "Arvo", serif;
@@ -173,27 +180,16 @@ th {
 }
 
 .select-btn {
-  font-family: "Comic Neue", cursive;
   text-transform: uppercase;
   font-size: 1rem;
   padding: 0.2rem;
-  background-color: #02040f;
+  background-color: #ffffff;
 }
 
 .select-btn a {
   text-decoration: none;
-  color: #f3f9d2;
+  color: #000000;
 }
-
-.select-btn:hover {
-  background-color: #f2af29;
-}
-
-.select-btn:hover a {
-  color: #02040f;
-}
-
-/* transfer.ejs styling */
 .transfer-header {
   margin-top: 1rem;
   font-family: "Arvo", serif;
@@ -221,7 +217,6 @@ th {
   color: #02040f;
 }
 
-/* form.ejs styling */
 .form-body1 {
   margin-top: 1rem;
   margin-left: 35%;
@@ -231,7 +226,7 @@ th {
 }
 
 .form-body1 h1 {
-  color: #440381;
+  color: #000000;
 }
 
 .form-body2 {
@@ -243,7 +238,7 @@ th {
 }
 
 .form-body2 h1 {
-  color: #440381;
+  color: #000000;
 }
 
 .form {
@@ -267,7 +262,7 @@ th {
   text-transform: uppercase;
   font-size: 1.5rem;
   padding: 0.2rem;
-  background-color: #cbd726;
+  background-color: #000000;
   color: whitesmoke;
 }
 
@@ -276,9 +271,12 @@ th {
   color: #02040f;
 }
 
-/* history.ejs styling*/
 .history-header {
   margin-top: 1rem;
   font-family: "Arvo", serif;
   margin-left: 35%;
+}
+p {
+  font-size: 40px;
+  font-style: oblique;
 }
