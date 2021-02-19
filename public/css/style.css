@@ -9,10 +9,10 @@
   box-sizing: border-box;
 }
 
-/* body {
+body {
   background-image: url("/images/background.jpg ");
   background-repeat: no-repeat;
-} */
+}
 /* Navbar Styling */
 nav {
   height: 4rem;
